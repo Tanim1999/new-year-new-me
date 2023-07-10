@@ -1,7 +1,7 @@
 *{margin: 0;
 padding: 0;}
 .header-container{
-    height: 600px;
+    height: 100vh;
     background-image: url('/images/banner/banner3.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -34,3 +34,31 @@ padding: 0;}
             margin-top: 20px;
 
         }  
+        .main-container{
+            display: flex;
+            
+            height: 100vh;
+            align-items:center;
+            justify-content: center;
+            gap: 60px;
+
+        }
+        .main-heading{
+            font-weight: 900;
+        }
+        .img-container{
+            height: 80vh;
+            width: 60vh;
+            /* object-fit:contain; */
+            
+
+        }
+        img{max-width: 100%;
+            max-height: 100%;}
+            .list{
+                
+              list-style-type:none
+            }
+            li::before{content: "\2713" ;
+            color: rgb(6, 250, 14)}
+
